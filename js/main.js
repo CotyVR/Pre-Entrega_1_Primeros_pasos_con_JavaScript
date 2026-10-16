@@ -5,7 +5,7 @@ let acierto = false
 
 // Bucle de los intentos. Tienes 4.
 while (intentos < 4 && !acierto) {
-  const resultado = Number(prompt("¿En qué número estoy pensando? Pista se encuentra entre el 1 y el 10"));
+  const resultado = Number(prompt("¿En qué número estoy pensando? Pfskdgfjgbkjdfbgkjdrfbgkjdista se encuentra entre el 1 y el 10"));
   if (resultado === respuesta) {
     acierto = true;
     alert("¡Felicidades! Acertaste");
